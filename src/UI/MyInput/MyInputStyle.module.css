@@ -1,0 +1,19 @@
+.inp {
+    width: 35vw;
+    background: #1e293b;
+    margin-top: 10px;
+    margin-right: 25px;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 5px;
+    padding-left: 12px;
+    border-radius: 7px;
+    transition: all 0.25s ease;
+    color: #6366f1;
+}
+
+.inp:focus {
+    border: 2px solid #6366f1;
+    background: rgba(184, 191, 198, 1);
+    color: #1e293b;
+}
