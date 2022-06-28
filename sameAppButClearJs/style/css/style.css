@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(205deg, #292caf 11%, #4747aa 56%, rgba(59, 121, 126, 0.988604) 90%);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main {
+  margin-top: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addNewTask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+.addNewTask .inpAddTask {
+  width: 40vw;
+  min-height: 5vh;
+  overflow-wrap: anywhere;
+  border: none;
+  overflow: none;
+  border-radius: 10px;
+  margin-right: 1vw;
+  outline: none;
+  padding-left: 1vw;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.addNewTask .btnAddTask {
+  height: 5vh;
+  width: 3vw;
+  border-radius: 6px;
+  border: none;
+  overflow: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+}
+
+.tasks {
+  margin-top: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tasksList > li {
+  margin-top: 3vh;
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.task .textTask {
+  width: 40vw;
+  min-height: 5vh;
+  overflow-wrap: anywhere;
+  border: none;
+  overflow: none;
+  border-radius: 10px;
+  margin-right: 1vw;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1vw;
+  font-family: sans-serif;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.task .btnTaskDone {
+  height: 5vh;
+  min-width: 3vw;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 6px;
+  border: none;
+  overflow: none;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.done {
+  opacity: 0.6;
+}
+
+.done > p {
+  text-decoration: line-through;
+  color: #282539;
+}
+
+.btnAddTask:hover {
+  -webkit-box-shadow: 14px -10px 17px -1px rgba(107, 18, 169, 0.45);
+          box-shadow: 14px -10px 17px -1px rgba(107, 18, 169, 0.45);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.btnTaskDone:hover {
+  -webkit-box-shadow: 14px -10px 17px -1px rgba(107, 18, 169, 0.45);
+          box-shadow: 14px -10px 17px -1px rgba(107, 18, 169, 0.45);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.inpAddTask:hover,
+.inpAddTask:focus {
+  -webkit-box-shadow: -16px -9px 18px 4px rgba(18, 60, 92, 0.3);
+          box-shadow: -16px -9px 18px 4px rgba(18, 60, 92, 0.3);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.textTask:hover,
+.textTask:focus {
+  -webkit-box-shadow: -16px -9px 18px 4px rgba(18, 60, 92, 0.3);
+          box-shadow: -16px -9px 18px 4px rgba(18, 60, 92, 0.3);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
